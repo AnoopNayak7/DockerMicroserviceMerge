@@ -1,0 +1,25 @@
+version: '3'
+services:
+  service1:
+    build:
+      context: .
+      dockerfile: Dockerfile.service
+    image: docker-service1
+
+  service2:
+    build:
+      context: .
+      dockerfile: Dockerfile.service
+    image: docker-service2
+
+  service3:
+    build:
+      context: .
+      dockerfile: Dockerfile.service
+    image: docker-service3
+
+  service4:
+    build:
+      context: .
+      dockerfile: Dockerfile.service
+    image: docker-service4

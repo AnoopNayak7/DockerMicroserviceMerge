@@ -1,0 +1,7 @@
+version: '3'
+services:
+  all_services:
+    build:
+      context: .
+      dockerfile: docker/images/Dockerfile.all
+    image: docker-club

@@ -1,0 +1,13 @@
+version: '3'
+services:
+  club1:
+    build:
+      context: .
+      dockerfile: Dockerfile.club
+    image: docker-club
+
+  club2:
+    build:
+      context: .
+      dockerfile: Dockerfile.club
+    image: docker-club
